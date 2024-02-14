@@ -1,5 +1,5 @@
   <h1>Creating a Toy Dinosaur</h1>
   <form-field-w-hint (formControlValueToParent)="getDinosaur($event)" label="Dinosaur"/>
-  <form-field-w-hint (formControlValueToParent)="getDinosaur($event)" label="Material"/>
-  <form-field-w-hint (formControlValueToParent)="getDinosaur($event)" label="Art Style"/>
+  <form-field-w-hint (formControlValueToParent)="getMaterial($event)" label="Material"/>
+  <form-field-w-hint (formControlValueToParent)="getArtStyle($event)" label="Art Style"/>
   <app-button (buttonClick)="doTheSubmission($event)">Submit</app-button>
