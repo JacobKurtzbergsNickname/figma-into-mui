@@ -19,8 +19,24 @@ With both, there should be a version output
 
 Download [Visual Studio Code](https://code.visualstudio.com/) and install it.
 
-## TBC
---> Git Setup
+## Install Git
+
+Download [Git](https://git-scm.com/download/win) and install it 
+
+## Check Git installation
+
+Open a terminal and enter `git --version`. There should be a version output.
+
+## Clone repository
+
+Navigate to your repo folder on the terminal `cd C:\Users\{your user}\source\repos`
+Click on the "Code" button on the top of the page.
+Choose one of the clone URLs and enter it in the terminal: `git clone {clone URL}`
+
+## Open folder in VS Code
+This can easily be achieved from the terminal, simply enter `cd` and press TAB.
+This will suggest the folders, press it until the correct folder appears.
+Then enter `code .` - with the dot, the current folder is opened in Visual Studio *Code*
 
 # FigmaIntoMui
 
